@@ -1,0 +1,29 @@
+﻿Build started 9/22/2012 6:42:25 PM.
+     1>Project "C:\Users\mason\Documents\GitHub\cbsa\cbsa\cbsa.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\cbsa.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mason\Documents\GitHub\cbsa\SFML-2.0\include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D SFML_STATIC /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt LogicHandler.cpp main.cpp
+         LogicHandler.cpp
+     1>LogicHandler.cpp(59): warning C4018: '<' : signed/unsigned mismatch
+     1>LogicHandler.cpp(64): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+         main.cpp
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\mason\Documents\GitHub\cbsa\cbsa\Release\cbsa.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Users\mason\Documents\GitHub\cbsa\SFML-2.0\lib" "sfml-graphics-s.lib" "sfml-window-s.lib" "sfml-system-s.lib" "sfml-main.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\cbsa.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\mason\Documents\GitHub\cbsa\cbsa\Release\cbsa.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\mason\Documents\GitHub\cbsa\cbsa\Release\cbsa.lib" /MACHINE:X86 Release\InfinitePan.obj
+         Release\LogicHandler.obj
+         Release\main.obj
+         Release\MultiSprite.obj
+     1>LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+         Generating code
+         Finished generating code
+         cbsa.vcxproj -> C:\Users\mason\Documents\GitHub\cbsa\cbsa\Release\cbsa.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\mason\Documents\GitHub\cbsa\cbsa\Release\cbsa.exe;#1" /manifest Release\cbsa.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\cbsa.unsuccessfulbuild".
+         Touching "Release\cbsa.lastbuildstate".
+     1>Done Building Project "C:\Users\mason\Documents\GitHub\cbsa\cbsa\cbsa.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.51
